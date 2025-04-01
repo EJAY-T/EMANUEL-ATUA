@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <section id="about" className="mb-32"><About /></section>
       <section id="projects" className="mb-32"><Projects /></section>
       <section id="contact" className="mb-32"><Contact /></section>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

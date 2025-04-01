@@ -1,5 +1,5 @@
 const Projects = () => (
-  <section className="p-10 text-center bg-gray-100">
+  <section className="p-10 text-center h-screen pt-20 bg-gray-100">
     <h2 className="text-4xl font-bold text-gold">Projects</h2>
     <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       
@@ -15,7 +15,7 @@ const Projects = () => (
           <li>House Architectural Design</li>
           <li>Structural Design</li>
           <li>
-            <a href="UPLOAD CERT LINK HERE" className="text-blue-500 underline">
+            <a href="https://drive.google.com/file/d/19r4O7lDZ-MlVT9piQEKb84xil_2_RC7j/view?usp=drivesdk" className="text-blue-500 underline">
               View Recommendation Certificates & CV
             </a>
           </li>

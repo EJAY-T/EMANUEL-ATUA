@@ -1,7 +1,7 @@
 
 
 const Navbar = () => (
-  <nav className="fixed w-full bg-gray-900 text-white py-4">
+  <nav className="fixed w-full bg-gray-900  text-white py-4">
     <div className="container mx-auto px-4 flex justify-between items-center">
       <div className="text-2xl font-bold">My Portfolio</div>
       <ul className="flex space-x-4">
