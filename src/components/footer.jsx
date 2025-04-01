@@ -1,7 +1,7 @@
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 export default function Footer() {
   return (
-    <Footer className="bg-gray-900 text-white py-6 text-center">
+    < div className="bg-gray-900 text-white py-6 text-center">
       <div className="container mx-auto">
         <p className="text-lg font-semibold">Jay T Forex Hub</p>
         <div className="flex justify-center space-x-4 mt-3">
@@ -12,6 +12,6 @@ export default function Footer() {
         </div>
         <p className="mt-3 text-sm">© 2025 Jay T Forex Hub. All Rights Reserved.</p>
       </div>
-    </Footer>
+    </div>
   );
 }
